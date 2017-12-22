@@ -1,0 +1,26 @@
+{
+    "assets": {
+        "map_tileset": {"type": "image", "source": "assets/images/tileset.png"},
+
+        "player_spritesheet": {"type": "spritesheet", "source": "assets/images/world/player.png", "frame_width": 16, "frame_height": 16},
+        
+        "villager_image": {"type": "image", "source": "assets/images/world/villager.png"},
+        "guard_image": {"type": "image", "source": "assets/images/world/knight.png"},
+        
+        "level_tilemap": {"type": "tilemap", "source": "assets/maps/town.json"}
+    },
+    "groups": [
+        "players",
+        "doors",
+        "npcs"
+    ],
+    "map": {
+        "key": "level_tilemap",
+        "tilesets": ["map_tileset"]
+    },
+    "user_input": "assets/user_inputs/world_map_user_input.json",
+    "npc_messages": {
+        "villager_message": "assets/npc_messages/villager.txt",
+        "guard_message": "assets/npc_messages/guard.txt"
+    }
+}
