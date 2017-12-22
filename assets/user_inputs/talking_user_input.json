@@ -1,7 +1,0 @@
-{
-    "keydown": {
-        "ENTER": {
-            "callback": "game_state.end_talk"
-        }
-    }
-}
