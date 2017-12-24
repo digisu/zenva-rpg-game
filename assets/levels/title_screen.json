@@ -1,0 +1,31 @@
+{
+  "assets":{
+    "bg": {"type": "image", "source": "assets/images/battle/background.png"}
+  },
+  "sprites":{
+    "bg":{
+      "type": "sprite",
+      "position": {"x":0, "y":0},
+      "texture": "bg"
+    },
+    "title_message":{
+      "type": "text",
+      "position": {"x":320, "y":200},
+      "style": {"font": "65px, Kells", "fill": "#fff"},
+      "text": "Phaser RPG"
+    },
+    "start_message":{
+      "type": "text",
+      "position": {"x":320, "y":400},
+      "style": {"font": "20px, Kells", "fill": "#fff"},
+      "text": "click to start"
+    },
+    "start_button":{
+      "type": "button",
+      "position": {"x":320, "y":450},
+      "texture": "button_image",
+      "callback": "start_game"
+    }
+  }
+
+}
