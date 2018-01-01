@@ -15,11 +15,6 @@ RPG.TitleState.prototype.init = function(){
   this.scale.pageAlignVertically = true;
 }
 
-RPG.TitleState.prototype.preload = function(){
-  'use strict';
-  this.load.image('bg', 'assets/images/battle/background.png');
-}
-
 RPG.TitleState.prototype.create = function(){
   'use strict';
   var background = this.game.add.sprite(0, 0, 'bg');
